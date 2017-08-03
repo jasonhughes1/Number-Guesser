@@ -2,10 +2,10 @@
 
 
 
-Project Number Guesser
-A Turing School project, Front-end development program
+### Project Number Guesser
+## A Turing School project, Front-end development program
 
-Jason Hughes
+### Jason Hughes
 
 ### Synopsis
 
