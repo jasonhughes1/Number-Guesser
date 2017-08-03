@@ -1,0 +1,156 @@
+
+
+h1 {
+  background: #404041;
+  font-family: "Open Sans";
+  font-style: "light" 300;
+  font-weight: 700;
+  font-size: 70px;
+  color: #ED458B;
+  text-align: center;
+  margin-top: 0;
+}
+
+.header {
+  width: 90%;
+}
+
+span {
+  color: #E6E7E8;
+  font-weight: 300;
+}
+
+button:hover {
+  background-color: #EB008B;
+}
+
+#input1 {
+  display: block;
+  margin: auto;
+  width: 38%;
+  height: 40px;
+  font-size: 20px;
+  font-family: "Open Sans";
+  font-weight: 300;
+}
+
+.save {
+  font-family: "Open Sans";
+}
+
+.newmin {
+  display: inline;
+  text-align: center;
+  width: 17%;
+  margin-top: 2%;
+}
+
+.newmax {
+  display: inline;
+  text-align: center;
+  width: 17%;
+  margin-top: 2%;
+}
+
+
+.newdiv {
+  text-align: center;
+}
+
+
+#output {
+  font-size: 30px;
+  height: 20px;
+}
+
+
+#number {
+  font-size: 100px;
+  color: #EB008B;
+  font-size: 50px;
+  height: 50px;
+  font-size: 160px;
+}
+
+
+#highlow {
+  font-size: 30px;
+  height: 20px;
+}
+
+
+.buttonOne {
+  border: none;
+  display: inline-block;
+  background-color: #929497;
+  color: #FFFFFF;
+  width: 18%;
+  line-height: 40px;
+  border-radius: 30px;
+  /*text-align: center;*/
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 100;
+  margin-left: 20px;
+}
+
+
+.buttonTwo {
+  border: none;
+  display: inline-block;
+  background-color: #929497;
+  color: #FFFFFF;
+  width: 18%;
+  line-height: 40px;
+  border-radius: 30px;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 100;
+  margin: 2% 2%;
+}
+
+.buttonTwo:disabled {
+  background-color: #D0D2D3;
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Open Sans";
+  color:#404041;
+  font-size: 20px;
+}
+
+.result {
+  display: block;
+  height: 270px;
+  width : 50%;
+  margin: 0 auto;
+  color: orange;
+}
+
+
+.buttonThree {
+    border: none;
+    display: block;
+    background-color: #929497;
+    color: #FFFFFF;
+    width: 38%;
+    line-height: 30px;
+    border-radius: 30px;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 100;
+    margin:auto;
+    margin-top: 100px;
+}
+
+.buttonThree:disabled {
+  background-color: #D0D2D3
+}
+
+body {
+  margin: 0;
+}
