@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Number Guesser</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Number <span>Guesser</span></h1>
+
+    <form>
+
+  <input id="input1" type="number" placeholder="Enter your guess">
+
+    <form>
+      <div class= "newdiv">
+        <input class = "newmin" type="number" placeholder="Set your Min. Number" value="1">
+        <input class = "newmax" type="number" placeholder="Set your Max. Number" value="100">
+        <button type ="button" class="save">Save</button>
+      <div>
+    </form>
+
+    <button type="button"  class="buttonOne">Guess</button>
+    <button type="button" disabled = "true" class="buttonTwo">Clear</button>
+
+    <div class = 'result'>
+      <p id='output'>Your last guess was</p>
+      <p id = 'number'></p><br>
+      <p id = 'highlow'></p>
+    </div>
+
+    <button type="button" disabled = "true" class="buttonThree">Reset</button>
+    </form>
+    <script src= "./script.js"></script>
+
+  </body>
+</html>
